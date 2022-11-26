@@ -185,6 +185,7 @@ async fn main() -> ExitCode {
         return ExitCode::FAILURE;
     };
 
+    println!("Getting user info");
     let user = match fetch_user(&gh_token).await {
         Ok(user) => user,
         Err(e) => {
@@ -193,6 +194,7 @@ async fn main() -> ExitCode {
         }
     };
 
+    println!("Getting repos");
     let repos = match fetch_repos(&organisation, &gh_token).await {
         Ok(repos) => repos,
         Err(e) => {
