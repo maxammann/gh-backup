@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/LibAFL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/fuzzbench" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/libressl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/libressl-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/openssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/openssl-src-rs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/oss-fuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/rust-openssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/rustls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/thesis-results" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin-thesis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/LibAFL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/fuzzbench" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/libressl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/libressl-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/openssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/openssl-src-rs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/oss-fuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/rust-openssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/rustls" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/thesis-results" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/tlspuffin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/wolfssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/tlspuffin/wolfssl-sys" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/wolfssl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tlspuffin_backup/wolfssl-sys" vcs="Git" />
+  </component>
+</project>
