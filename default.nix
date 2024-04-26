@@ -1,9 +1,21 @@
 { pkgs ? import <nixpkgs> { system = builtins.currentSystem; }
 , lib ? pkgs.lib
 , fetchFromGitHub ? pkgs.fetchFromGitHub
-, rustPlatform ? pkgs.rustPlatform
+#, rustPlatform ? pkgs.rustPlatform
 }:
 
+with import <nixpkgs>
+{
+  overlays = [
+    (import (fetchTarball "https://github.com/oxalica/rust-overlay/archive/master.tar.gz"))
+  ];
+};
+let
+  rustPlatform = makeRustPlatform {
+    cargo = rust-bin.stable.latest.minimal;
+    rustc = rust-bin.stable.latest.minimal;
+  };
+in
 rustPlatform.buildRustPackage rec {
   pname = "gh-backup";
   version = "0.0.1";
